@@ -1,5 +1,5 @@
 == Description
-This ripl plugin gives ripl mult-line eval ability using ripper.
+This ripl plugin gives ripl multi-line eval ability using ripper.
 
 == Install
 If on 1.9, install the gem with:

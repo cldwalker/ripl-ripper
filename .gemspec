@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = "gabriel.horner@gmail.com"
   s.homepage    = "http://github.com/cldwalker/ripl-ripper"
   s.summary = "A ripl plugin to make ripl multi-line with ripper"
-  s.description =  "This ripl plugin gives ripl mult-line eval ability using ripper."
+  s.description =  "This ripl plugin gives ripl multi-line eval ability using ripper."
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project = 'tagaholic'
   s.add_dependency 'ripl', '>= 0.3.3'
