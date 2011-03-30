@@ -1,0 +1,27 @@
+== Description
+This ripl plugin gives ripl mult-line eval ability using ripper.
+
+== Install
+If on 1.9, install the gem with:
+
+    gem install ripl-ripper
+
+If on 1.8, install the gem with:
+
+    gem install ripl-ripper ripper
+
+== Usage
+
+Add to your ~/.riplrc
+
+    require 'ripl/ripper'
+
+To customize your multi-line prompt use the :ripper_prompt option. For example,
+
+    Ripl.config[:ripper_prompt] = ' | '
+
+== Limitations
+
+This gem is meant to run on 1.9. 1.8 support is completely up to the ripper gem.
+If that doesn't work for you, check out the {ripl-multi_line
+plugin}[https://github.com/janlelis/ripl-multi_line].
